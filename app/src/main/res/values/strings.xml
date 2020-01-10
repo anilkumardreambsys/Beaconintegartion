@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Beaconintegartion</string>
+    <string name="eddystoneuid">Eddystone UID</string>
+    <string name="namespaceid">Namespace ID:</string>
+    <string name="instanceid">Instance ID:</string>
+    <string name="eddystoneurl">Eddystone URL</string>
+    <string name="url">URL :</string>
+    <string name="eddystonetlm">Eddystone TLM</string>
+    <string name="batteryVoltage">Battery Voltage:</string>
+    <string name="temperature">Temperature:</string>
+    <string name="pducount">PDU Count:</string>
+    <string name="boottime">Boot time:</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="celsiusUnicode">\u2103</string>
+
+    <!-- Menu Action -->
+    <string name="clearList">Clear List</string>
+    <string name="aboutUs">About Us</string>
+
+    <!-- About us -->
+    <string name="back">&#xf053;</string>
+    <string name="project_label">Select Project</string>
+
+    <string-array name="project_name">
+        <item>Loc-1-H</item>
+        <item>Loc-2-U</item>
+    </string-array>
+
+    <string-array name="audiofile_name">
+        <item>Welcome</item>
+        <item>Loc-2-U</item>
+    </string-array>
+
+
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="last_update_time_label">Last location update time</string>
+
+    <string name="start_updates">Start updates</string>
+    <string name="stop_updates">Stop updates</string>
+
+    <string name="location_settings_inadequate_warning">The location settings on the device are not
+        adequate to run this sample. Fix in Settings.</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+</resources>

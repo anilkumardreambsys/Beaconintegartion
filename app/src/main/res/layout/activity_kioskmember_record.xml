@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".KioskmemberRecord">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/headingtitle"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/grpname"
+            android:text="Group name"
+            android:textSize="24dp"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/grpphn"
+            android:text="Group Phone"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/grpname"
+            android:textSize="24dp"
+            android:layout_centerHorizontal="true"
+            ></TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/headingtitle"
+        android:layout_marginTop="15dp"
+        android:id="@+id/getfrndinfo"
+        ></LinearLayout>
+
+</RelativeLayout>

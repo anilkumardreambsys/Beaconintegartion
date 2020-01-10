@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "267348806941",
+    "firebase_url": "https://tokyo-silicon-262611.firebaseio.com",
+    "project_id": "tokyo-silicon-262611",
+    "storage_bucket": "tokyo-silicon-262611.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267348806941:android:75ffd748858d6817d7a5f4",
+        "android_client_info": {
+          "package_name": "com.beac.beaconintegartion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267348806941-ttih5eer4rm38vaaqe596me1h1tpbs80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beac.beaconintegartion",
+            "certificate_hash": "a319fc9ff0e9ed44e4e815db77c9bbbc3ce1b29d"
+          }
+        },
+        {
+          "client_id": "267348806941-9lmplk40osph52hh27bltvh6jt05730a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNZEAZM4_5ULRjnxO1vuAsbUsFLpkmHBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267348806941-9lmplk40osph52hh27bltvh6jt05730a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

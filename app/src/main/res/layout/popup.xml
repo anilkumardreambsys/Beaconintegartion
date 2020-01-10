@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:padding="30px">
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_height="200dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:background="#c1c1c1"
+                        android:src="@drawable/iskcon_temple_ujjain" />
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:background="#c1c1c1"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:src="@drawable/kal_bhairav_temple"/>
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:background="#c1c1c1"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:src="@drawable/mandir"/>
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:background="#c1c1c1"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:src="@drawable/shri_mahakaleshwar_temple"/>
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:background="#c1c1c1"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:src="@drawable/the_idol_of_the_gad_kalika"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Mahakaleshwar Jyotirlinga is a Hindu temple dedicated to Lord Shiva and one of the twelve Jyotirlingams, shrines which are said to be the most sacred abodes of Lord Shiva. It is located in the ancient city of Ujjain in the state of Madhya Pradesh, India. The temple is situated on the side of the holy river Shipra."
+                ></TextView>
+
+            </LinearLayout>
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_height="200dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <VideoView
+                        android:id="@+id/videoview"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <Button
+                android:text="Close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="195dp"
+                android:visibility="visible"
+                android:id="@+id/closePopupBtn" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
