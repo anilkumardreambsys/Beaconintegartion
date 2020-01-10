@@ -26,10 +26,7 @@
         <activity android:name=".GroupFilter" />
         <activity android:name=".Addgroup" />
         <activity android:name=".Locationupdates" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
         <activity android:name=".Gpstrackinginfo" />
         <activity android:name=".Listingactivity">
@@ -43,7 +40,12 @@
         <activity android:name=".Playactivity" />
         <activity android:name=".Viewrecords" />
         <activity android:name=".Projectinfo" />
-        <activity android:name=".Login" />
+        <activity android:name=".Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MainActivity" /> <!-- [START fcm_default_channel] -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_channel_id"
