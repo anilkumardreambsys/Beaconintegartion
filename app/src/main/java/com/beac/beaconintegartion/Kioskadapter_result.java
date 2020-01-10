@@ -54,6 +54,7 @@ public class Kioskadapter_result extends ArrayAdapter<Groupinfo_results> {
         TextView grppwd = view.findViewById(R.id.grp_pwd);
         TextView grpphone = view.findViewById(R.id.grp_phone);
         Button buttonDelete = view.findViewById(R.id.delete_btn);
+        //Toast.makeText(context, "test", Toast.LENGTH_SHORT).show();
 
 
         buttonDelete.setOnClickListener(new View.OnClickListener() {
